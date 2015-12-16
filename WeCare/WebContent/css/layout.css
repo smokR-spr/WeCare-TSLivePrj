@@ -1,0 +1,243 @@
+/* {
+	border: 1px dashed blue;
+}*/
+
+body {
+	margin: 0;
+	font-family: 'Roboto',sans-serif;
+	/* font-size: 13px; */
+	font-weight: 300;
+	/*background-color: white /*#d3ffce/*#e2f4cb;*/
+	/*background-image: url("images/WeCare-Logo.png");*/
+}
+
+#rest {
+	margin-top: 75px;
+	margin-bottom: 75px;
+	
+	/* z-index: */ 
+}
+
+.rest {
+	margin-top: -30px;
+	margin-bottom: 75px;
+}
+
+/*#left {
+	float: left;
+	height: 500px;
+	width: 30px;
+}*/
+
+#content {
+	/* min-height: 90%; */
+	
+	margin: 10px 10px 10px 10px;
+	float: left;
+	width: 97%;
+	
+	padding-left: 10px;
+	
+	margin-bottom: 50px;	
+	/*background-image: url("../images/WeCare-Logo.png");*/
+	/*background-image: url("../images/cancer-ribbon.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;*/
+}
+
+.content {
+	min-height: 575px;
+	
+	margin: 0px 10px 40px 20px;
+	float: left;
+	width: 97%;
+	
+	/*padding: 10px;*/
+	
+	/*margin-bottom: 50px;*/
+	border: 1px dashed #cccccc;
+	/* padding: 0px 15px 15px; */
+	
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+	/*background-image: url("../images/WeCare-Logo.png");*/
+	/*background-image: url("../images/cancer-ribbon.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;*/
+	
+	/*white-space: nowrap;*/
+	/*word-wrap: break-word;*/
+	
+	-ms-word-break: break-all;
+	word-break: break-all;
+		
+	-webkit-hyphens: auto;
+   	-moz-hyphens: auto;
+   	-ms-hyphens: auto;
+    hyphens: auto;
+}
+
+/*#content::after {
+	content: "";
+	background-image: url("../images/WeCare-Logo.png");
+	opacity: 0.1;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: fixed;
+	z-index:-1;
+}*/
+
+#intro {
+	/* border: 1px dashed #cccccc;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.3); */
+	padding: 10px;
+	
+	background-image: url("../images/cancer-ribbon.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.center {
+	/*position: relative;
+	margin: 0 auto;*/
+	text-align: center;
+}
+
+.info {
+	font-family: Century Gothic, sans-serif;
+	font-size: 30px;
+	text-align: center;
+}
+
+.button {
+	padding: 5px;
+	
+	border: 0.5px dotted rgba(0,0,0,0.2);
+	border-radius: 5px;
+	
+	margin: 5px;
+}
+
+.button:hover {
+	cursor: pointer;
+	background-color: brown;
+	color: white;
+	text-shadow: aqua;
+	
+	box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+	
+}
+
+.button:disabled:hover {
+	cursor: default;
+	background-color: #efefef;
+	color: #808080;
+	text-shadow: aqua;
+	
+	box-shadow: none;
+}
+
+.table-center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.stream {
+	width: 500px;
+	
+	margin: 5px auto;
+	
+	/* margin-left: auto;
+	margin-right: auto; */
+	
+	padding: 0px 10px;
+	
+	border-right: 1px solid lightgray;
+	border-left: 1px solid lightgray;
+}
+
+input {
+	padding: 4px;
+}
+
+.info-small {
+	color: #a4a4a4;
+	font-size: 10px;
+	margin: 0px;
+	padding: 0px;
+	
+	text-align: left;
+}
+
+.info-small a {
+	color: #a4a4a4;
+	text-decoration: none;
+}
+
+.info-small:hover {
+	text-decoration: underline;
+}
+
+.admin {
+	background: rgba(96, 134, 105, 0.1)/*rgba(204, 102, 0, 0.5)*/;
+	color: white;
+}
+
+.hidden {
+	display: none;
+}
+
+.popup {
+	z-index: 1;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	margin-left: -275px;
+	margin-top: -150px;
+	
+	width: auto;
+	height: auto;
+	background-color: white; /* rgba(249, 243, 202, 1); */
+	
+	border: 1px dashed #cccccc;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+}
+
+#logged-in-user {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	text-align: right;
+}
+
+#logged-in-user a {
+	text-decoration: none;
+	color: black; 
+}
+
+#logged-in-user #uid {
+	color: #800000;
+	font-size: 12px;
+	margin: 0px;
+	width: 115px;
+	padding: 3px 0px;
+	/*border: 1px dashed blue;*/
+}
+
+#logged-in-user a:hover {
+	text-decoration: underline;
+}
+
+#logged-in-user #uid a {
+	background: lightgray;
+	padding: 3px;
+}
+
+.red {
+	color: red;
+}
+
+.green {
+	color: green;
+}

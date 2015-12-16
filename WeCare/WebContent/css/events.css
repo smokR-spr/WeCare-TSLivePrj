@@ -1,0 +1,85 @@
+@CHARSET "ISO-8859-1";
+
+.events {
+	margin: 25px;
+	height: 350px;
+	width: 250px;
+	box-shadow: 0px 0px 2px gray;
+	float: right;
+	/*padding: 5px;*/
+	
+	/* outline: 1px dashed blue; */
+	
+	background: rgba(249, 243, 202, 0.8);
+}
+
+/* event table styling */
+.event {
+	/* border-bottom: 1px dashed #004040; */
+	margin: 0px;
+	/* background: gray; */
+	overflow: visible; 
+}
+
+.event a {
+	border-bottom: 1px dashed #004040;
+	border-top: 1px dashed #004040;
+	display: block;
+	text-decoration: none;
+	color: black;
+	margin: 0;
+	padding: 5px;
+}
+
+.event table {
+	border-collapse: collapse;
+}
+
+.event a:HOVER {
+	background: rgba(0, 128, 64, 1);
+	color: white;
+}
+
+.event td, th, thead, tbody {
+	border: none;
+	background: none;
+	padding: 2px;
+}
+
+.event th {
+	text-align: left;
+	font: 200 22px 'Roboto','sans-serif';
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, .3);
+}
+
+.event td {
+	font: 12px 'caption';
+}
+
+.marquee {
+	width: 250px;
+	height: 350px;
+	overflow: hidden;
+}
+
+.info-small {
+	text-shadow: none;
+	font-size: 12px;
+	color: #808080;
+}
+
+/* for all-events hyperlink */
+#all-events a {
+	text-decoration: none;
+	position: relative;
+	/* left: 100px; */
+	left: 152px;
+	bottom: 18px;
+	color: black;
+	/* display: none; */
+}
+
+#all-events a:HOVER {
+	text-decoration: underline;
+	
+}

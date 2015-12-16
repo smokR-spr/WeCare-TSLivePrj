@@ -1,0 +1,166 @@
+@CHARSET "ISO-8859-1";
+/* styling the table for my-topics.jsp page */
+/* #topic-list * {
+	outline: 1px dashed red;
+} */
+
+.topics {
+	table-layout: auto;
+	border-collapse: collapse;
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.topics a {
+	text-decoration: none;
+	color: #e1b504;
+}
+
+.topics a:HOVER {
+	text-decoration: underline;
+	color: #008040;
+}
+
+.topics {
+	border: 2px solid gray;	
+	/*table-layout: fixed;*/
+}
+
+.topics th {
+	height: 35px;
+	border-bottom: 2px solid gray;
+}
+
+topics tr {
+	position: relative;
+}
+
+.topics td, th {
+	border-left: 1px dashed gray;
+	padding: 3px;
+}
+
+.topics thead {
+	/* background-color: #f4fed6; */
+	background-color: #f9f3ca; /* rgba(249, 243, 202, 1); */
+}
+
+/* #mytopics td {
+	word-wrap: break-word;
+} */
+
+#date {
+	text-align: center;
+	width: 200px;
+}
+
+#sl-no {
+	text-align: center;
+	width: 50px;
+}
+
+#topic-name {
+	width: 250px;
+}
+
+#comment {
+	width: 350px;
+}
+
+/* #topic-id {
+	visibility: hidden;
+} */
+
+.topics button {
+	padding: 2px;
+}
+
+/* #edit-div * {
+	outline: 1px dashed red;
+} */
+
+#edit-topic th, td, thead {
+	height: auto;
+	border: none;
+	padding: 0px;
+	border-left: none;
+	
+	background-color: white;
+}
+
+#edit-div {
+	z-index: 1;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	margin-left: -275px;
+	margin-top: -150px;
+	
+	width: 550px;
+	height: 230px;
+	background-color: white; /* rgba(249, 243, 202, 1); */
+	
+	border: 1px dashed #cccccc;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+}
+
+/* #edit-topic {
+	width: 400px;
+	height: 280px;
+	vertical-align: center;
+} */
+
+/* #edit-topic table {
+	outline: 2px solid black;
+	
+	width: 380px;
+	height: 280px;
+	padding: 5px;
+	margin: 10px;
+} */
+
+#edit-topic table {
+	margin-top: 8px;
+}
+
+#edit-topic table thead {
+	text-align: center;
+}
+
+#edit-topic table td {
+	vertical-align: top;
+	padding: 5px;
+	border: none;
+}
+
+#edit-topic table th {
+	border: none;
+}
+
+#edit-topic textarea {
+	width: 400px;
+	height: 100px;
+}
+
+#edit_topic-name {
+	text-decoration: underline;
+	font-style: italic;
+}
+
+/* strikeout the whole table row */
+
+tr.strikeout td:before {
+	content: " ";
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	left: 0;
+	border-bottom: 1px solid black;
+}
+
+tr.strikeout td {
+    color: #cccccc;
+}

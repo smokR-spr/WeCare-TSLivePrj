@@ -1,0 +1,189 @@
+@CHARSET "ISO-8859-1";
+
+.header {
+	position: fixed;
+	width: 30%;
+	right: 0px;
+	/*margin-left: -40%;*/
+	
+	z-index: 150;
+	top: -10px;
+	border-radius: 0px 0px 0px 10px;
+	
+	padding: 5px;
+	text-align: center;
+	height: 30px;
+	
+	/*opacity: 0.80;*/
+	/*background-color: #ece3a5;*/
+	/* background-color: rgba(236, 227, 165, 0.8); */
+	/*background-color: rgba(240, 225, 123, 0.8);*/
+	background-color: rgba(240, 225, 123, 0.8);
+	
+	font-family: Century Gothic, sans-serif;
+}
+
+/*.header:before {
+	content: '';
+    position: absolute;
+    bottom: 0; left: 0;
+    border-bottom: 80px solid white;
+    border-right: 80px solid rgba(240, 225, 123, 0.2);
+    width: 0;
+    z-index: -1;
+}*/
+
+#logo img {
+	height: 26.28px;
+	width: 22.84px;
+	padding: 5px;
+	/*position: relative;	
+	top: 7px;*/
+	margin-top: 1px;
+	margin-left: 10px;
+	float: left;
+}
+
+#logo img:hover {
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+	border-radius: 5px;
+	
+	position: relative;
+	left: -2px;
+	top: -2px;
+}
+
+#logo img:active {
+	box-shadow: none;
+		
+	position: relative;
+	left: 0px;
+	top: 0px;
+}
+
+#name img {
+	/*height: 20%;
+	width: 20%;*/
+	padding: 15px;
+	
+	/*position: relative;
+	left: 60px;
+	top: 5px;*/
+	 
+	/*position: fixed;
+	right: 70px;
+	top: -10px;*/
+	position: relative;
+	top: -3px;
+	width: 80px;
+}
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	
+	text-align: center;
+	clear: both;
+	width: 100%;
+	
+	font-family: Consolas, serif;
+	font-size: 1em;
+	
+	/*background-color: #006231;*/
+	background-color: rgba(0, 98, 49, 0.8);
+	color: white;
+	
+	padding: 5px;
+}
+
+
+/*drop down menu*/
+.dropdown {
+	color: #555;
+	margin: 10px 0px 0 0;
+	width: 100px;
+	/*position: relative;*/
+	float: right;
+	height: 17px;
+	text-align: center;
+	
+	/*border: 1px dashed blue;*/
+}
+.submenu {
+	background: #fff;
+	position: absolute;
+	top: -1px;
+	right: 6px;
+	z-index: 100;
+	width: 95px;
+	display: none;
+	margin-left: 10px;
+	padding: 40px 0 5px;
+	border-radius: 6px;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.45);
+}
+.dropdown li a {
+	color: #555555;
+	display: block;
+	font-family: arial;
+	font-weight: bold;
+	padding: 6px 15px;
+	cursor: pointer;
+	text-decoration:none;
+}
+
+.dropdown li a:hover {
+	background:#008040;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#signout:hover {
+	background:#d20000;
+}
+
+a.account {
+	font-size: 11px;
+	line-height: 16px;
+	color: #555;
+	position: absolute;
+	z-index: 110;
+	display: block;
+	padding: 11px 0 0 20px;
+	height: 28px;
+	width: 85px;
+	margin: -11px 0 0 -10px;
+	text-decoration: none;
+	/*background-image: url("../images/arrow-down-b.png");
+	background-image: url("../images/cancer-ribbon.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;*/
+	cursor:pointer;
+}
+/*a.account:hover {
+	position: relative;
+	top: -2px;
+	left: -2px;
+	
+	/*border-radius: 4px;
+	color: brown;
+	font-weight: bold;
+	text-shadow: aqua;
+	
+	
+}
+a.account:active {
+	box-shadow: none;
+	
+	position: relative;
+	top: 0px;
+	left: 0px;
+}*/
+.root {
+	list-style:none;
+	margin:0px;
+	padding:0px;
+	font-size: 11px;
+	padding: 11px 0 0 0px;
+	border-top:1px solid #dedede;
+}

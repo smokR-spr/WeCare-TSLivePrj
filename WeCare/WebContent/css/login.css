@@ -1,0 +1,12 @@
+@CHARSET "ISO-8859-1";
+
+.login {
+	width: 234px;
+	border: 1px dashed #cccccc;
+	position: relative;
+	left: 50%;
+	margin-left: -117px;
+	padding: 0px 15px 15px;
+	
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+}

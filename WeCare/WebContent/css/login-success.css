@@ -1,0 +1,31 @@
+@CHARSET "ISO-8859-1";
+
+/* .user-page {
+	border: 1px dashed #cccccc;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+	padding: 10px;
+	
+	background-image: url("../images/cancer-ribbon.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+ */
+/* #content * {
+	outline: 1px dashed blue;
+} */
+
+/* add-topic.jsp */
+#addtopic table {
+	margin: 0 auto;
+}
+
+#addtopic table input[type="text"] {
+	width: 400px;
+}
+
+#addtopic #comment {
+	padding: 3px;
+	height: 100px;
+	width: 402px;
+	text-wrap: break-word;
+}
